@@ -4,13 +4,13 @@ define('DB_USER', 'root');
 define('DB_PASS', ''); 
 define('DB_NAME', 'mbit_email_list'); 
 
-define('APPROOT', dirname(dirname(__FILE__)));
+
 
 define('URLROOT', 'http://localhost/mb_email');
 
-define('SITENAME', 'Pineapple');
 
-Run from local host htdocs 
+
+# Run from local host htdocs 
 # folder name =  mb_email
 
 # Database
