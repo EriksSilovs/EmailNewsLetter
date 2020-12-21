@@ -19,7 +19,7 @@ table in there:emails
 
 .htaccess file is added so as long as folder is in local host and named correctly there should not be problems
 
-### press on any of top links to get to email sorting page 
+### press on any of top links to get in email sorting page (database filtration page)
 #### (About; How it works ; Contact) <- any of this one
 
 
