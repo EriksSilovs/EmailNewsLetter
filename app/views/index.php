@@ -19,7 +19,7 @@
                
 
                 <div class="logo showOnMob"> <img src="<?php echo URLROOT ?>/public/img/logo_pineapple.svg" alt=""> </div>
-                <div class="logo hideOnMob"> <span class="icon-logo_pineapple"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span></span> </div>
+                <div class="logo hideOnMob">  <img src="<?php echo URLROOT ?>/public/img/logo_pineapple_desktop.svg" alt=""> </div>
                 <div class="links">
                     <ul>
                         <li><a href="<?php echo URLROOT; ?>/posts/index"> About</a></li>
