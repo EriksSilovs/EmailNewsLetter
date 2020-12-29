@@ -43,7 +43,7 @@ if(isset($_POST["export"]))
     }  
     fclose($output);  
     die;
-}
+};
 ?>
 
 
@@ -88,11 +88,7 @@ if(isset($_POST["export"]))
         <div class="search">
             <input type="text" name="valueToSearch" placeholder="Value To Search &#8680;" ><br><br>
             <input type="submit" name="search" value="Filter"><br><br>
-               
         </div>  
-
-            
-
             <tr>
                 <th>Email</th>
                 <th>Submitted at</th>
@@ -100,7 +96,6 @@ if(isset($_POST["export"]))
             </tr>
         <?php while($row = mysqli_fetch_array($search_result)):?>
             <tr>
-            
                 <td> <?php echo $row['email'];?></td>
                 <td><?php echo $row['created_at'];?></td>
 
@@ -108,10 +103,9 @@ if(isset($_POST["export"]))
                 <td><input  type="submit"   name="delete" value="Delete" ></td>  
 
                 </form>
-
             </tr>
         <?php endwhile;?>
-    
+
     </form>
 </table>
 
@@ -136,7 +130,6 @@ if(isset($_POST["export"]))
      
     //  $final_string = implode("<br>", $final_aray );
      ?>
-
     <form action="index.php" method="post">
         <tr>
             <td> 
@@ -146,7 +139,6 @@ if(isset($_POST["export"]))
       
     </form>                     
     <?php endforeach; ?>
-
 <table>
     <form method="post" action="export.php" >
                  <td> <input type="submit" name="export" value=" EXPORT FILTERED EMAILS AS CSV" class="btn btn-success"/> </td> 
@@ -155,5 +147,4 @@ if(isset($_POST["export"]))
    
 </table>
 </div>
-
-</html >
+</html>
