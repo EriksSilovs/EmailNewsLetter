@@ -22,7 +22,7 @@ table in there:emails
 ### press on any of top links to get in email sorting page (database filtration page)
 ![Screenshot 2020-12-30 at 11 23 32](https://user-images.githubusercontent.com/70655354/103342185-8bbc0300-4a91-11eb-8246-353ec7ba54ca.jpg)
 
-#### (About; How it works ; Contact) <- any of this one
+#### Path
 
 
 ![img-path](https://user-images.githubusercontent.com/70655354/103342034-2405b800-4a91-11eb-9d1d-a9dac990a965.jpg)
