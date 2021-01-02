@@ -26,7 +26,7 @@ function filterTable($query){
     return $filter_Result;
 };
 
-// export function /exports filtered emails/
+// export function /exports all emails/
 if(isset($_POST["export"]))  
 {  
     header('Content-Type: text/csv; charset=utf-8');  
@@ -141,7 +141,7 @@ if(isset($_POST["export"]))
     <?php endforeach; ?>
 <table>
     <form method="post" action="export.php" >
-                 <td> <input type="submit" name="export" value=" EXPORT FILTERED EMAILS AS CSV" class="btn btn-success"/> </td> 
+                 <td> <input type="submit" name="export" value=" EXPORT ALL EMAILS AS CSV" class="btn btn-success"/> </td> 
                  
     </form>  
    
